@@ -1,4 +1,5 @@
 
+
 body {
     background-color: black;
 }
@@ -22,4 +23,12 @@ body {
   a {
     text-decoration: none;
     background-color: black;
+  }
+
+  .button-hidden {
+    visibility: hidden;
+  }
+
+  .image-hidden {
+    display: none;
   }
