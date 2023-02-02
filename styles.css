@@ -9,6 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    width: 50%;
   }
 
   .btn {
@@ -20,10 +21,22 @@ body {
   transform: translate(-50%, -50%);
   }
 
-  a {
-    text-decoration: none;
-    background-color: black;
-  }
+
+    button {
+      color: #efa300;
+        background-color: white;
+        border: none;
+        position: absolute;
+        left: 1340px;
+        top: 97px;
+    }
+
+
+     a:visited {
+         color: #efa300;
+         text-decoration: none;
+
+     }
 
   .button-hidden {
     visibility: hidden;
@@ -32,3 +45,8 @@ body {
   .image-hidden {
     display: none;
   }
+
+  .screen-image {
+      width: 100%;
+  }
+
